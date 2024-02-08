@@ -1,5 +1,6 @@
 # Project overview
-    * description
+    * During this lab, our goal was to enhance our html file's responsiveness through the usage of different CSS techniques.
+    * More specifically, we worked on the responsiveness of the websites using different platforms, including phones, tablets and desktop.
 ## Team members
 
 |      Name       | 
