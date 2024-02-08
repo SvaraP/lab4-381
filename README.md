@@ -16,4 +16,4 @@
 
 ### Exercise C
 
-![Exercise B final output](./ExerciseC.gif)
+![Exercise C final output](./ExerciseC.gif)
