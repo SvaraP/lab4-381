@@ -66,7 +66,7 @@ Description : Flex Layouts.
 			box-sizing: border-box;
 		}
         body { margin: 0; padding: 0; }
-        img { width: 100%; height: auto; }
+        img { max-width: 100%; height: auto;}
         .container { 
 			/*I need some CSS codes.*/
 			display:flex;
@@ -78,7 +78,7 @@ Description : Flex Layouts.
 			display:flex;
 		} 
         .main { 
-			flex:1;
+			flex:1; 
 			padding: 15px; 
 			display:flex;
 			flex-direction:column;
@@ -91,6 +91,7 @@ Description : Flex Layouts.
 			display:flex;
 			flex-wrap:wrap;
 			width:100%;
+		
 		}
         
 
@@ -111,16 +112,16 @@ Description : Flex Layouts.
 			 }       
         }
 
-        @media screen and (width: 768px) {
+        @media screen and (max-width: 768px) {
 			.body { 
 				/*I need some CSS codes.*/
-				/* display:flex; */
-				flex-direction:column;
+				display: flex;  
+				flex-direction: column;
 			}
             .menu ul { 
 				/*I need some CSS codes.*/
-				/* display:flex; */
-				flex-direction:row;
+				 display: flex;  
+				flex-direction: row;
 			 }      
 			 .large { 
 				/*I need some CSS codes.*/
@@ -138,14 +139,13 @@ Description : Flex Layouts.
             /*I need some CSS codes.*/
         }
 
-        @media screen and (width: 480px) {
+        @media screen and (max-width: 480px) {
             .news-item header h1 { font-size: 18px; }
             .medium, .small { 
 				/*I need some CSS codes.*/
 				width:100%;
-			
-				
 			 }
+
 			 
         }
     </style>
